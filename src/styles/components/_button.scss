@@ -14,7 +14,9 @@
 }
 
 .big-button:disabled {
-	opacity: 0.5;
+	background: lighten($light-red, 5%);
+	cursor: not-allowed;
+	border: none;
 }
 
 .button {
